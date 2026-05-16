@@ -1,0 +1,14 @@
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\bin\Debug\net10.0\DoseCertaCLI.exe
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\bin\Debug\net10.0\DoseCertaCLI.deps.json
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\bin\Debug\net10.0\DoseCertaCLI.runtimeconfig.json
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\bin\Debug\net10.0\DoseCertaCLI.dll
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\bin\Debug\net10.0\DoseCertaCLI.pdb
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\DoseCertaCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\DoseCertaCLI.AssemblyInfoInputs.cache
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\DoseCertaCLI.AssemblyInfo.cs
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\DoseCertaCLI.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\DoseCertaCLI.dll
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\refint\DoseCertaCLI.dll
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\DoseCertaCLI.pdb
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\DoseCertaCLI.genruntimeconfig.cache
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI\obj\Debug\net10.0\ref\DoseCertaCLI.dll

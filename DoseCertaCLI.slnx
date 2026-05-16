@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DoseCertaCLI.Tests/DoseCertaCLI.Tests.csproj" />
+  <Project Path="DoseCertaCLI/DoseCertaCLI.csproj" />
+</Solution>
