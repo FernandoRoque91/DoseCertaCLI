@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoseCertaCLI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc7ef81cc33d63cf71cc60c2d150bcdfa977e320")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74b100abd5d7305c14d0a43869e928e7eaf90e8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoseCertaCLI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoseCertaCLI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

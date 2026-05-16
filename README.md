@@ -36,6 +36,8 @@ O DoseCerta CLI busca amenizar esse problema oferecendo uma aplicação simples 
 
 # Funcionalidades
 
+- Consulta online de medicamentos via API pública;
+
 ## Medicamentos
 - cadastro de medicamentos;
 - listagem;
@@ -59,6 +61,24 @@ O DoseCerta CLI busca amenizar esse problema oferecendo uma aplicação simples 
 - GitHub Actions
 - dotnet format
 
+---
+
+## Integração com API Pública
+
+O sistema utiliza a API pública OpenFDA para consultar informações online sobre medicamentos.
+
+API utilizada:
+https://open.fda.gov/apis/drug/
+
+Funcionalidade:
+- consulta online de medicamentos;
+- busca de descrições e informações complementares;
+- integração HTTP com API REST.
+
+# Testes
+
+## Testes unitários;
+## Testes de integração da API;
 ---
 
 # Instalação

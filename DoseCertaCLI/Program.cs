@@ -8,6 +8,8 @@ MedicamentoService medicamentoService = new();
 
 HidratacaoService hidratacaoService = new();
 
+ApiMedicamentoService apiMedicamentoService = new();
+
 bool executando = true;
 
 while (executando)
@@ -24,6 +26,7 @@ while (executando)
     Console.WriteLine("3 - Marcar como tomado");
     Console.WriteLine("4 - Registrar hidratação");
     Console.WriteLine("5 - Ver progresso hidratação");
+    Console.WriteLine("6 - Consultar medicamento online");
     Console.WriteLine("0 - Sair");
 
     Console.Write("\nEscolha uma opção: ");
@@ -50,6 +53,11 @@ while (executando)
 
         case "5":
             hidratacaoService.ExibirProgresso();
+            break;
+
+        case "6":
+            await apiMedicamentoService
+                .ConsultarMedicamentoOnline();
             break;
 
         case "0":
