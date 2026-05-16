@@ -1,8 +1,11 @@
 ﻿using DoseCertaCLI.Services;
+using Spectre.Console;
 
 Console.Title = "DoseCerta CLI";
 
 MedicamentoService medicamentoService = new();
+
+HidratacaoService hidratacaoService = new();
 
 bool executando = true;
 
@@ -18,6 +21,8 @@ while (executando)
     Console.WriteLine("1 - Cadastrar medicamento");
     Console.WriteLine("2 - Listar medicamentos");
     Console.WriteLine("3 - Marcar como tomado");
+    Console.WriteLine("4 - Registrar hidratação");
+    Console.WriteLine("5 - Ver progresso hidratação");
     Console.WriteLine("0 - Sair");
 
     Console.Write("\nEscolha uma opção: ");
@@ -36,6 +41,14 @@ while (executando)
 
         case "3":
             medicamentoService.MarcarComoTomado();
+            break;
+
+        case "4":
+            hidratacaoService.RegistrarConsumo();
+            break;
+
+        case "5":
+            hidratacaoService.ExibirProgresso();
             break;
 
         case "0":
