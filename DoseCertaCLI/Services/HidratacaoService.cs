@@ -1,4 +1,5 @@
 using System.Text.Json;
+
 using DoseCertaCLI.Models;
 
 namespace DoseCertaCLI.Services;

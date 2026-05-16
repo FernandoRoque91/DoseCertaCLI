@@ -20,6 +20,8 @@ C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\Micros
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\Spectre.Console.dll
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\Spectre.Console.Ansi.dll
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\xunit.assert.dll
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\xunit.core.dll
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\bin\Debug\net10.0\xunit.execution.dotnet.dll
@@ -95,6 +97,7 @@ C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\obj\Debug\net10.0\DoseCe
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\obj\Debug\net10.0\DoseCertaCLI.Tests.AssemblyInfoInputs.cache
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\obj\Debug\net10.0\DoseCertaCLI.Tests.AssemblyInfo.cs
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\obj\Debug\net10.0\DoseCertaCLI.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\obj\Debug\net10.0\DoseCertaCLI.Tests.sourcelink.json
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\obj\Debug\net10.0\DoseCert.79F8DEF4.Up2Date
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\obj\Debug\net10.0\DoseCertaCLI.Tests.dll
 C:\Users\Fernando\Codes\DoseCertaCLI\DoseCertaCLI.Tests\obj\Debug\net10.0\refint\DoseCertaCLI.Tests.dll

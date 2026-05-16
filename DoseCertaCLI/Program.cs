@@ -1,4 +1,5 @@
 ﻿using DoseCertaCLI.Services;
+
 using Spectre.Console;
 
 Console.Title = "DoseCerta CLI";
