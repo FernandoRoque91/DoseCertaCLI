@@ -66,7 +66,7 @@ O DoseCerta CLI busca amenizar esse problema oferecendo uma aplicação simples 
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/DoseCertaCLI.git
+git clone https://github.com/FernandoRoque91/DoseCertaCLI.git
 ```
 
 Entre na pasta:
@@ -119,6 +119,22 @@ dotnet format
 
 ---
 
+# Integração com API Pública
+
+O projeto utiliza a API pública OpenFDA para realizar consultas online de medicamentos.
+
+API utilizada:
+https://open.fda.gov/apis/drug/
+
+Tecnologias utilizadas na integração:
+
+* HttpClient;
+* requisições HTTP GET;
+* desserialização JSON;
+* testes de integração com mock HTTP.
+
+---
+
 # Estrutura do Projeto
 
 ```text
@@ -135,6 +151,43 @@ DoseCertaCLI/
 
 ---
 
+# Como testar a integração da API
+
+A funcionalidade de consulta online de medicamentos utiliza a API pública OpenFDA.
+
+Para testar:
+
+1. Execute o projeto:
+
+```bash
+dotnet run --project DoseCertaCLI
+```
+
+2. Escolha a opção:
+
+```text
+6 - Consultar medicamento online
+```
+
+3. Digite um medicamento válido, por exemplo:
+
+```text
+aspirin
+```
+
+ou
+
+```text
+tylenol
+```
+
+4. O sistema exibirá informações encontradas na base internacional OpenFDA.
+
+Observação:
+A funcionalidade requer conexão com a internet.
+
+---
+
 # Versionamento
 
 Este projeto utiliza versionamento semântico:
@@ -146,7 +199,7 @@ MAJOR.MINOR.PATCH
 Versão atual:
 
 ```text
-1.0.0
+1.1.0
 ```
 
 ---
