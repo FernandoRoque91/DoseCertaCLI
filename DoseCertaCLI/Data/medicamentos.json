@@ -1,25 +1,5 @@
 [
   {
-    "Nome": "Dipiriona",
-    "Dosagem": "500mg",
-    "Horarios": [
-      "08:00",
-      "14:00",
-      "20:00"
-    ],
-    "HorariosTomados": []
-  },
-  {
-    "Nome": "Amoxiclina",
-    "Dosagem": "40mg",
-    "Horarios": [
-      "08:00",
-      "14:00",
-      "20:00"
-    ],
-    "HorariosTomados": [
-      "20:00",
-      "08:00"
-    ]
+    
   }
 ]

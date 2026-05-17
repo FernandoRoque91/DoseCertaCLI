@@ -132,7 +132,8 @@ public class MedicamentoService
         {
             string horario = medicamento.Horarios[i];
 
-            bool tomado = medicamento.HorariosTomados.Contains(horario);
+            bool tomado = medicamento.HorariosTomados
+                .Any(h => h.StartsWith(horario));
 
             Console.WriteLine($"{i + 1} - {horario} {(tomado ? "(Tomado)" : "")}");
         }
@@ -151,9 +152,15 @@ public class MedicamentoService
 
         string horarioSelecionado = medicamento.Horarios[horarioEscolhido - 1];
 
-        if (!medicamento.HorariosTomados.Contains(horarioSelecionado))
+        bool horarioJaTomado = medicamento.HorariosTomados
+            .Any(h => h.StartsWith(horarioSelecionado));
+
+        if (!horarioJaTomado)
         {
-            medicamento.HorariosTomados.Add(horarioSelecionado);
+            string registroTomado =
+                $"{horarioSelecionado} - {DateTime.Now:dd/MM/yyyy HH:mm}";
+
+            medicamento.HorariosTomados.Add(registroTomado);
         }
 
         SalvarMedicamentos(medicamentos);
@@ -202,7 +209,8 @@ public class MedicamentoService
 
                 bool horarioPassou = horarioAtual >= horarioMedicamento;
 
-                bool foiTomado = medicamento.HorariosTomados.Contains(horario);
+                bool foiTomado = medicamento.HorariosTomados
+                    .Any(h => h.StartsWith(horario));
 
                 if (horarioPassou && !foiTomado)
                 {
